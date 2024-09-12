@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.navbar img {
+    width: 25%;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 5px rgb(17, 71, 247);
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.newcar h1 {
+    padding-top: 12%;
+    font-family: 'Times New Roman', Times, serif;
+   
+    text-align: center;
+    text-align: justify;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000,
+        3px 3px 5px #000;
+    color: rgb(201, 162, 88);
+    font-size: 2rem;
+}
+.newcar h3{
+   
+    font-family: 'Times New Roman', Times, serif;
+    padding:  5% 5% 5%;
+    text-align: center;
+    text-align: justify;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000,
+        3px 3px 5px #000;
+    color: rgb(201, 162, 88);
+}
+.newcar p {
+    text-align: center;
+}
+.mission {
+    padding: 11% 0px 90px 10px;
+  }
+  
+  .card p {
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+  }
+  
+  .card {
+    padding: 60px 0px 90px 10px;
+    font-size: 1rem;
+    font-family: monospace;
+    margin-bottom: 2%;
+  }
+  
+  .header {
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000,
+      3px 3px 5px #000;
+    color: rgb(201, 162, 88);
+  
+  }
+  .Back h3{
+    font-family: 'Times New Roman', Times, serif;
+    padding:  5% 5% 5%;
+    text-align: center;
+    text-align: justify;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000,
+        3px 3px 5px #000;
+    color: rgb(201, 162, 88);
+  }
+ .Back .card{
+    font-family: "Candara", sans-serif;
+    width: 250px;
+    height: 150%;
+    display: inline-block;
+    margin: 20px 90px;
+    margin-top: 30px;
+    padding: 10px 10px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    position: relative;
+    padding: 60px 10px;
+    height: 50%;
+    background-color: rgb(137, 162, 175);
+    color: #f2f2f2;
+}
+
+.footer .footer-logo img {
+    object-fit: cover;
+    height: 20vh;
+    width: auto;
+}
+
+.footer .input-group input {
+    padding: 15px;
+    background: rgb(50, 57, 61);
+    border: none;
+    outline: none;
+    color: #f2f2f2;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+
+
+.footer .input-group input::placeholder {
+    color: #f2f2f2;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.footer a:hover {
+    color: rgb(92, 57, 216);
+    transition: 0.3s ease;
+    margin-left: 5px;
+}
+
+.footer h4 {
+    letter-spacing: 1.5px;
+    color: #f2f2f2;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer .input-group button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(100, 43, 169);
+    background: rgb(100, 43, 169);
+    color: #f2f2f2;
+}
+
+.footer .input-group button:hover {
+    background-color: rgb(92, 57, 216);
+    border: 1px solid rgb(92, 57, 216);
+    transition: 0.4s ease-in-out;
+}
